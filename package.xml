@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>44.0</version>
+    <types>
+        <members>NewTest</members>
+        <name>Audience</name>
+    </types>
+    <types>
+        <members>Test_Community</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Test Community</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>Test_Community1</members>
+        <name>SiteDotCom</name>
+    </types>
+</Package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>NewTest</audienceName>
+    <container>Test Community</container>
+    <criterion>
+        <criterionValue>
+            <country>United States</country>
+            <subdivision>Nevada</subdivision>
+        </criterionValue>
+        <operator>Equal</operator>
+        <type>GeoLocation</type>
+    </criterion>
+    <criterion>
+        <criterionValue>
+            <profile>customer community user</profile>
+        </criterionValue>
+        <operator>Equal</operator>
+        <type>Profile</type>
+    </criterion>
+    <criterion>
+        <criterionValue>
+            <entityField>Manager.Profile.CreatedBy.Contact.MailingCountry</entityField>
+            <entityType>User</entityType>
+            <fieldValue>USA</fieldValue>
+        </criterionValue>
+        <operator>StartsWith</operator>
+        <type>FieldBased</type>
+    </criterion>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+</Audience>
