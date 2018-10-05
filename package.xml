@@ -18,6 +18,18 @@
         <name>PresenceDeclineReason</name>
     </types>
     <types>
+        <members>default_presence_config</members>
+        <name>PresenceUserConfig</name>
+    </types>
+    <types>
+        <members>Routing_for_omni</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>OmniChannel</members>
+        <name>Settings</name>
+    </types>
+    <types>
         <members>Test_Community1</members>
         <name>SiteDotCom</name>
     </types>
