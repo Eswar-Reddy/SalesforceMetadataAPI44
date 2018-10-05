@@ -14,6 +14,10 @@
         <name>Network</name>
     </types>
     <types>
+        <members>Decline_for_Omni</members>
+        <name>PresenceDeclineReason</name>
+    </types>
+    <types>
         <members>Test_Community1</members>
         <name>SiteDotCom</name>
     </types>
